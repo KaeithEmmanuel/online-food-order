@@ -19,6 +19,7 @@ app.use('/api',require('./routes/CreateUser'));
 app.use('/api',require('./routes/DisplayData'));
 app.use('/api',require('./routes/CategoryData'));
 app.use('/api',require('./routes/Orderdata'));
+
 app.listen(port, () => {
     console.log(`Backend server is running on port ${port}`);
 })
